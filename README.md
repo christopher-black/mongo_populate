@@ -3,7 +3,7 @@
 
 [Documentation](http://mongoosejs.com/docs/populate.html)
 
-```
+```JavaScript
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema
 
@@ -38,7 +38,7 @@ router.get('/favorite', function(req, res){
 
 **Find with populate:**
 
-```
+```JSON
 {
    "_id":"599d9d3ad34fb6006e2839b1",
    "name":"Demo",
@@ -65,7 +65,7 @@ router.get('/favorite', function(req, res){
 
 **Find without populate:**
 
-```
+```JSON
 {
    "_id":"599d9d3ad34fb6006e2839b1",
    "name":"Demo",
